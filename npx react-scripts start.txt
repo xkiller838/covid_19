@@ -1,0 +1,9 @@
+el tema es que tenés que conseguir que los dos scripts corran al mismo tiempo, el de tailwind y el que corre la app, porque vas a modificar el css y no lo vas a ver reflejado
+cuando corrés npm run build te hace la carpeta build
+
+
+
+el build hace "npm run build:css && react-scripts build" dos comandos... separados por &&
+evidentemente en windows no funciona así
+
+npm run build
